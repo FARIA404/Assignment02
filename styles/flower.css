@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.color{
+    color: #3a3667;
+}
+.color2{
+    color: #252432;
+}
+.color3{
+    color: #000000;
+}
+.color4{
+    color: #E95A08;
+}
+.btn-bg{
+    background-color: #E95A08;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+}
+.display-flex{
+    display: flex;
+}
+.nav-items{
+    list-style: none;
+    align-items: center;
+    margin-right: 48px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400px;
+    align-items: center;
+}
+.navbar{
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+}
+.flower{
+    font-size: 22px;
+}
+.container{
+    /* margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px; */
+     justify-content: center;
+    align-items: center;
+} 
+.fresh{
+    /* align-items: center;
+    justify-content: center; */
+    padding-top: 162px;
+}
+.font{
+    font-size: 65px;
+    font-weight: bold;
+}
+.image-flower{
+    /* width: 100%; */
+    
+
+}
+.our-plant{
+    font-size: 50px;
+    font-weight: bold;
+}
+.indulge{
+    font-size: 22px;
+    padding-left: 126px;
+    padding-right: 126px;
+}
+.plant{
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 49px;
+    gap: 20px 30px;
+    border: 1px solid white;
+}
+.plants{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 210px;
+}
+.cart{
+    text-align: center;
+    justify-content: center;
+}
+.list{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.head1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+.plant-lover{
+    grid-template-columns: auto;
+}
+@media screen and (max-width: 576px) {
+    .navbar, .nav-link, .container{
+        flex-direction: column;
+    }
+}
