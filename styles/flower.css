@@ -26,6 +26,9 @@
     border: none;
     color: #FFFFFF;
 }
+.btn-bg:hover{
+    background: aquamarine;
+}
 .display-flex{
     display: flex;
 }
@@ -101,6 +104,10 @@
     text-align: center;
     justify-content: center;
 }
+.plant-lover{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 .list{
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
@@ -111,8 +118,81 @@
     color: rgba(0, 0, 0, 1);
 }
 .plant-lover{
-    grid-template-columns: auto;
+    gap: 60px;
 }
+.fool{
+    padding-top: 38px;
+}
+/* #badge{
+    height: 286px;
+    width: 286px;
+    margin-left: 347px;
+    margin-top: 438px;
+} */
+ 
+ .Deals{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+ }
+ .bar{
+    gap:28px;
+    justify-content: space-between;
+    justify-items: center;
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+ }
+ .sidebar1{
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("../assets/deal-bloom.png");
+    border-radius: 14px;
+    width: 367px;
+    height: 200px;
+    text-align: center;
+ }
+ .sidebar2{
+    background-image: url("../assets/deal-ana.png");
+    border-radius: 14px;
+    width: 367px;
+    height: 200px;
+    text-align: center;
+    /* padding-top: 30px; */
+ }
+ .zabo{
+    background-image: url("../assets/deal-zabo.png");
+    border-radius: 22px;
+    width: 700px;
+    text-align: center;
+    padding-top: 200px;
+ }
+ .bunch{
+    /* justify-content: center; */
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(7, 51, 79, 0.4);
+    background-image: url("../assets/news-letter-bg.png");
+    text-align: center;
+    width: 1440px;
+    height: 400px;
+    /* justify-content: center; */
+    align-items: center;
+
+ }
+ .subscribe-section{
+    background-color: rgba(7, 51, 79, 0.4);
+    background-image: url("../assets/news-letter-bg.png");
+    text-align: center;
+    width: 1440px;
+    height: 400px;
+    /* justify-content: center; */
+    align-items: center;
+ }
+ 
 @media screen and (max-width: 576px) {
     .navbar, .nav-link, .container{
         flex-direction: column;
