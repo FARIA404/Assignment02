@@ -192,7 +192,43 @@
     /* justify-content: center; */
     align-items: center;
  }
- 
+ .subscribe-section h2{
+font-size: 50px;
+color: #FFFFFF;
+font-weight: bold;
+ }
+ .subscribe-box{
+    justify-content: center;
+    align-items: center;
+    /* width: 830px; */
+    background-color: white;
+    /* overflow: hidden; */
+ }
+ /* .subscribe-box input{ */
+    /* flex: 1; */
+    /* padding: 0px 15px; */
+
+ /* } */
+ .subscribe-box button{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+
+ }
+ .paragraph{
+    
+ }
+ .faugei{
+    margin-right: 110px;
+ }
+ .about{
+    margin-right: 110px;
+ }
+ .icons{
+    justify-content: space-between;
+ }
 @media screen and (max-width: 576px) {
     .navbar, .nav-link, .container{
         flex-direction: column;
